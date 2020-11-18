@@ -1,6 +1,7 @@
 /*fetching the data*/
 function init() {
     fetch("http://allofme.dk/ap/wp-json/wp/v2/lifesituation").then(r => r.json()).then(
+
         function (data) {
             createSections(data);
             console.log(data)
@@ -20,18 +21,13 @@ function createSections(categories) {
 function showproduct(product) {
     const templ = document.querySelector("#Template").content;
     const copy = templ.cloneNode(true);
-
-    const h1 = copy.querySelector("h1");
-    h1.textContent = product.title_of_description;
-
-    copy.querySelector(".text").innerHTML = product.content.rendered;
-
-    /*
-    const img = copy.querySelector(".productImg");
-    img.setAttribute('src', product.location_image.guid);
-    */
+    copy.querySelector("#linku").href += product.id;
+    copy.querySelector("#linku").setAttribute = ("id", "linku"+product.id );
+    copy.querySelector("#linku").textContent = product.title_of_description;
     document.querySelector("main").appendChild(copy);
 
 
 
 }
+
+
