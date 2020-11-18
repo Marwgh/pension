@@ -11,7 +11,10 @@ init();
 
 
 function createSections(categories) {
+    /*const urlpara = new URLSearchParams(window.location.search);
+    const page = urlpara.get("page");*/
     categories.forEach(showproduct);
+
 }
 
 function showproduct(product) {

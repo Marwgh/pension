@@ -1,0 +1,59 @@
+.navbar a{
+margin-top: 12px;
+text-decoration: none;
+}
+
+.navbar{
+    background-color: white;
+    margin-top: 1%;
+    height: 46px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.logo_icon{
+background-color: white;
+margin-top: 3%;
+height: 96px;
+}
+
+article{
+    margin-left: 10vw;
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    border-radius: 2vw 2vw 2vw 0 ;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
+    padding: 0 2vw 1vw 2vw ;
+}
+#ttl {
+    margin-left: 10vw;
+    color: white;
+    width: 30vw;
+    height: 10vw;
+    background-color: #386082;
+    border-bottom-right-radius: 2vw;
+    margin-bottom: 15vw;
+    text-align: center;
+    padding-top: 4vw;
+}
+
+body{
+    background-color: #ECEFF2;
+    font-family: 'Aleo', serif;
+    margin: 0;
+}
+#twoleaf {
+    float: right;
+    margin-bottom: 15vw;
+    margin-right: 5vw;
+    width: 20vw;
+    height: auto;
+}
+
+
+
+
+
