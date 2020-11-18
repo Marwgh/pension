@@ -102,3 +102,69 @@ text-decoration: none;
     border: none;
     color: white;  
 }
+
+footer{
+    margin-top:10%;
+    background-color: #386082;
+    color: white;
+}
+
+.like{
+    color: black;
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    position:absolute;
+    top:250%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call{
+    position: absolute;
+    top: 240%;
+    height: 250px;
+    width: 450px;
+    background-color: #FF9632;
+    margin-left:50%;
+    border-radius: 15px;
+    color:black;
+    
+}
+.call h4{
+    margin-left:7%;
+    
+    font-weight: lighter;
+}
+.hours{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.call button{
+border: 2px solid white;
+border-radius: 5px;
+ background-color: transparent;
+ color: white;
+ margin-left:5%;
+ margin-top:5%
+}
+
+.text101{
+    display:flex;
+}
+.text101 p{
+    margin-left:17.5%;
+    margin-top: 4%;
+}
+
+.info{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.info p{
+    margin-bottom:8%;
+}
